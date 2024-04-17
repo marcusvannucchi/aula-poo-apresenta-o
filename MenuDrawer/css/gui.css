@@ -1,0 +1,27 @@
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+.drawer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 56px; /* drawer abaixo do navbarr */
+    width: 30%;
+    height: calc(100% - 56px); /* a altura do navbar influencia pro drawer aparecer abaixo */
+    overflow: auto;
+    background-color: gray; /*rgb(0,0,0);*/    
+    padding-top: 60px;
+}
+button{
+    background-color: black;
+}
+body{
+    background: rgb(0,1,1);
+    background: linear-gradient(0deg, rgba(0,1,1,1) 0%, rgba(65,62,62,1) 100%);
+}
+h1{
+    color: white;
+}
